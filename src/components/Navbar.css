@@ -1,0 +1,25 @@
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 2em 3em;
+    background: #1e1e2e;
+    background: linear-gradient(to right, #1e1e2e, #2e2e3e);
+    color: whitesmoke;
+    font-family: Kanit, sans-serif;
+}
+
+.nav-logo {
+    display: flex;
+    align-items: center;
+}
+
+.nav-img {
+    width: 70px;
+    margin-right: 2em;
+}
+
+.nav > h2 {
+    justify-self: flex-end;
+}
